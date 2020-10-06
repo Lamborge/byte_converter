@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:byte_converter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="450" Width="550">
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="53,22,0,0" Text="Что делаем?" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton Content="text - byte" HorizontalAlignment="Left" Margin="181,30,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.485,0.495"/>
+        <RadioButton Content="byte - text" HorizontalAlignment="Left" Margin="291,31,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="238"/>
+        <Button Content="Конвертировать" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" Height="43" Width="152"/>
 
     </Grid>
 </Window>
