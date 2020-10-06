@@ -15,14 +15,37 @@ using System.Windows.Shapes;
 
 namespace byte_converter
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+
+        public bool b1;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void tb_Checked(object sender, RoutedEventArgs e)
+        {
+            b1 = true;
+        }
+
+        private void bt_Checked(object sender, RoutedEventArgs e)
+        {
+            b1 = false;
+        }
+
+        private void mbutton_Click(object sender, RoutedEventArgs e)
+        {
+            if (b1)
+            {
+                byte[] byte_t = Encoding.Default.GetBytes(box.Text);
+                string res = String.Join("", byte_t);
+
+                ResWin rw = new ResWin();
+                rw.Show();
+                rw.rbox.Text = res;
+            }
         }
     }
 }
