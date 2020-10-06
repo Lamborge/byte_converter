@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "byte_converter", "byte_converter.csproj", "{AEA6A91C-769E-4C3E-823C-8EB182D30A2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA6A91C-769E-4C3E-823C-8EB182D30A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA6A91C-769E-4C3E-823C-8EB182D30A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA6A91C-769E-4C3E-823C-8EB182D30A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA6A91C-769E-4C3E-823C-8EB182D30A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8286FA3C-8401-4FD9-B7B6-742225A5AF90}
+	EndGlobalSection
+EndGlobal
